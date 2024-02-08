@@ -43,17 +43,13 @@ recvThread.start()
 
 # CREATE FUNCTIONS HERE....
 
-
-<<<<<<< HEAD
 print("\n Sean Gay + Team Member: Cade Smith " )
 print("Program Name: Program FLight ")
 print("Date: 2.6.2024 ")
 print("DEC7")
-=======
 print("\nFirst & Last Names")
 print("Program Name: ")
 print("Date: ")
->>>>>>> parent of 03b5e69 (Added drone Wifi Adress)
 print("\n****CHECK YOUR TELLO WIFI ADDRESS****")
 print("\n****CHECK SURROUNDING AREA BEFORE FLIGHT****")
 ready = input('\nAre you ready to take flight: ')
