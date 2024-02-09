@@ -54,6 +54,14 @@ ready = input('\nAre you ready to take flight: ')
 
 
 try:
+
+#Square: Pilot - Sean Gay / CoPilot - Cade Smith
+
+# Triangle: Pilot - Cade Smith / Copilot - Sean Gay
+
+# Circle: Pilot - Sean Gay / Copilot - Cade Smith
+
+
     if ready.lower() == 'yes':
         print("\nStarting Drone!\n")
 
