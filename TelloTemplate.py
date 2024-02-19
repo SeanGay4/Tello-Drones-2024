@@ -52,7 +52,7 @@ print("\n****CHECK YOUR TELLO WIFI ADDRESS****")
 print("\n****CHECK SURROUNDING AREA BEFORE FLIGHT****")
 ready = input('\nAre you ready to take flight: ')
 
-"""
+
 try:
 
 #Square: Pilot - Sean Gay / CoPilot - Cade Smith
@@ -75,7 +75,7 @@ except KeyboardInterrupt:
 
 breakr = True
 sock.close()
-"""
+
 
 """
     # Triangle: Pilot - Cade Smith / Copilot - Sean Gay
@@ -101,7 +101,7 @@ except KeyboardInterrupt:
 
 breakr = True
 sock.close()
-"""
+
 
 
     # Circle: Pilot - Sean Gay / Copilot - Cade Smith
@@ -129,3 +129,4 @@ except KeyboardInterrupt:
 
 breakr = True
 sock.close()
+"""
