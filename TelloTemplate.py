@@ -70,6 +70,12 @@ try:
         # second hoop
         sendmsg("go 250 0 40 70", 8)
 
+
+        # curve into thrird hoop
+
+        sendmsg("curve 100 100 40 100 0 35", 8)
+        sendmsg("forward 250", 8)
+
         sendmsg('land')
 
         print('\nGreat Flight!!!')
