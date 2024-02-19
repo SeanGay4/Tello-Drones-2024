@@ -62,9 +62,11 @@ try:
         sendmsg('command', 0)
         sendmsg('takeoff')
 
-        sendmsg('up 50', 2),
-        sendmsg('speed 35', 2)
-        sendmsg('forward 90', 2)
+        # first hoop
+
+        sendmsg("up 20", 8)
+        sendmsg("forward 255", 8)
+
 
         sendmsg('land')
 
