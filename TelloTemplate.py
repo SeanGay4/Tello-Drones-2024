@@ -67,6 +67,8 @@ try:
         sendmsg("up 20", 8)
         sendmsg("forward 255", 8)
 
+        # second hoop
+        sendmsg("go 250 0 40 70", 8)
 
         sendmsg('land')
 
