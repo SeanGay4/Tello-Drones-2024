@@ -58,7 +58,7 @@ ready = input('\nAre you ready to take flight: ')
 try:
     if ready.lower() == 'yes':
         print("\nStarting Drone!\n")
-
+        
         sendmsg('command', 0)
         sendmsg('takeoff')
 
@@ -74,7 +74,7 @@ try:
 
         # curve into thrird hoop: seans computer
 
-        sendmsg("curve 100 100 40 100 0 35", 8)
+        sendmsg("curve -100 -100 0 -100 0 0 50",  8)
         sendmsg("forward 250", 8)
 
         sendmsg('land')
