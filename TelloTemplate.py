@@ -62,16 +62,17 @@ try:
         sendmsg('command', 0)
         sendmsg('takeoff')
 
-        # first hoop
+        # first hoop: seans computer
+
 
         sendmsg("up 20", 8)
         sendmsg("forward 255", 8)
 
-        # second hoop
+        # second hoop: cades computer
         sendmsg("go 250 0 40 70", 8)
 
 
-        # curve into thrird hoop
+        # curve into thrird hoop: seans computer
 
         sendmsg("curve 100 100 40 100 0 35", 8)
         sendmsg("forward 250", 8)
