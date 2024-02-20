@@ -63,8 +63,7 @@ try:
         sendmsg('command', 0)
         sendmsg('takeoff')
 
-        sendmsg('up 90', 8)
-        sendmsg('right 90', 8),  sendmsg('down 70', 8), sendmsg('left 90', 8)
+        sendmsg('battery?')
         sendmsg('land')
         print('\nGreat Flight!!!')
 
