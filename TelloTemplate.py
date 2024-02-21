@@ -75,7 +75,7 @@ try:
 
         # curve into thrird hoop: seans computer
 
-        sendmsg('curve 125 125 0 0 250 0 50', 8)
+        sendmsg('curve 125 125 0 0 250 0 50', 15)
         sendmsg('cw 180',8)
         sendmsg('forward 40',8)
 
